@@ -5,11 +5,7 @@ var allTimesEl = document.querySelector("#all-times");
 var schedule = {};
 
 $(".time-save").on("click", function(){
-    // var text = allTimesEl.querySelector(".time-color").querySelector("textarea");
-    // var textEl =  $(this)[0].parentElement.querySelector(".time-color").querySelector("textarea");
     var textEl =  $(this)[0].parentElement.querySelector(".time-color").getAttribute("id").replace("t-","");
-    // var text = $(textEl).val();
-    // console.log(text);
     saveTask(textEl);
   })
 
@@ -74,7 +70,6 @@ var loadSchedule = function() {
     $(allTimesEl).children().each(function() {
         var timeSlot = $(this).children()[1].getAttribute("id").replace("t-","");
         var textValue = $(this).find("textarea");
-        console.log(schedule);
         $(textValue).val(schedule[timeSlot]);
     })
 }
