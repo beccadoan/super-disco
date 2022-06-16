@@ -72,8 +72,28 @@ textarea{
 
 .time-color {
   background-color: #d3d3d3;
+  padding: 10px;
 }
 
 .time-save {
   background-color: #06AED5;
+  color: white;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.time-save:hover {
+  color: black;
+}
+
+.time {
+  border: 1px solid rgba(0,0,0,0.4);
+  border-left: 0px;
+}
+
+.green {
+  background-color: green;
+}
+
+.red {
+  background-color: red;
 }
