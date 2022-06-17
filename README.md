@@ -16,8 +16,6 @@ When a time slot is clicked on, a user can input text and create an item for tha
 
 When a user clicks the save button to the right of the time block they wish to save, that data will be saved and will be there the next time the web page is loaded. 
 
-The data will reset at midnight.
-
 Here is a photo of the application, at 4:52 pm, so the 4pm time slot is red.
 
 ![Image of deployed application](./assets/images/screenshot.PNG)
